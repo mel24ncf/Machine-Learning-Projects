@@ -1,19 +1,20 @@
-# Machine Learning Projects
+# Machine Learning Projects Portfolio
 
-This is a repository to showcase some of the Machine Learning projects that I have worked on while pursuing an MS in Applied Data Science. 
-The folder structure is setup in the following way:
+Welcome to my Machine Learning Projects portfolio! This repository showcases a collection of my projects, which includes assignments from my Applied Machine Learning course and personal projects that I have passionately worked on.
 
-* Deep Learning
-  * MLP
-  * CNN
-  * RNN
+The file structure of this repo follows this diagram:
 
-* Supervised Learning
-  * Classification
-  * Regression
+├── Deep Learning/
+│   ├── project1/
+│   ├── project2/
+│   ├── ...
+├── Supervised Learning/
+│   ├── project1/
+│   ├── project2/
+│   ├── ...
+├── Unsupervised Learning/
+|   ├── project1/
+|   ├── project2/
+├── README.md
 
-* Unsupervised Learning
-  * Clustering
-  * PCA
-
-Folder for branch of ML, subfolder for topic, subfolder for a particular project.
+Each project folder contains files for the data and machine learning code.
