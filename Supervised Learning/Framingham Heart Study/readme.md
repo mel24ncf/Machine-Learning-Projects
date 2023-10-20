@@ -18,7 +18,6 @@ This prediction takes the following variables into account:
 * BMI:
 * heartRate:
 * Glucose:
-* TenYearCHD:
 
 This project contains four python files.
 
