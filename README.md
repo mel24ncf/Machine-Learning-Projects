@@ -1,7 +1,7 @@
 ## Machine Learning Projects 
 ### Hello, Welcome to my Machine Learning Projects Repository! 
 
-**This repository features a compilation of personal projects, along with my assignments from Applied Machine Learning.**
+**This repository features a compilation of personal projects, along with my assignments from a course in Applied Machine Learning.**
 
 ### Project Sections:
 #### Deep Learning
@@ -9,7 +9,7 @@
   - [Project(s)](Deep%20Learning/)
 
 #### Supervised Learning
-- [Supervised Learning Projects README](Supervised%20Learning/readme.md)
+- [Supervised Learning Projects README](Supervised%20Learning/README.md)
   - **Linear Regression**      
     - [Cleveland House Prices](Supervised%20Learning/Cleveland%20House%20Prices)
   - **Logistic Regression**                                   
