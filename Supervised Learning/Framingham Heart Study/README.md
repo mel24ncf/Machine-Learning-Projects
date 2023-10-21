@@ -1,8 +1,7 @@
 # Framingham Heart Study: Logistic Regression for Coronary Heart Disease Prediction
 
 ## 1. Summary
-In this project, I built a classification model using logistic regression, to predict whether a person will have a coronary heart disease event within 10 years.
-I also perform threshold analysis to identify the threshold that produces the largest F1 score for the fitted model. The threshold (usually .50) is a parameter that determines the positive class. 
+In this project, I constructed a logistic regression model to classify patients at risk of experiencing a coronary heart disease event within the next 10 years. I also conducted a threshold analysis to identify the threshold value that maximizes the F1 score for the fitted model. In logistic regression, a threshold (typically 0.50) is the value that is used to compare against the predicted probability for classifying the positive class. 
 
 ## 2. Data
 * Male: Boolean Indicator of male patient
@@ -43,6 +42,7 @@ I also perform threshold analysis to identify the threshold that produces the la
 
 **Use this link to see the pandas generated report**
 
+[My Pandas Profiling Report](file:///C:/Users/15639/Documents/Modeling/Machine%20Learning/Framingham/data_report.html#sample)
 
 ## 3. Files
 This project contains four python files.
