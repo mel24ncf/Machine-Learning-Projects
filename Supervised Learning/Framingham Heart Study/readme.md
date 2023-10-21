@@ -32,15 +32,18 @@ I also perform threshold analysis to identify the threshold that produces the la
 * BMI:
 * heartRate:
 * Glucose:
+* TenYearCHD: (**Target**)
 
 ## 3. Files
 This project contains four python files.
 
 File            | Description
 ----------------|-----------------
-                | 
-                | 
-                | 
-                | 
+chd_explore.py  | creates report using pandas_profiling 
+data_report.html| report created from explore file
+chd_split.py    | splits data into train (80%) and test (20%) sets 
+chd_train.py    | fits model on pipeline containing scaler and log regression model, prints accuracy, and saves coefficients for model 
+classifier.pkl  | saved weights of log regression model
+chd_test.py     | model evaluation on test data with confusion matrix using .50 threshold, and threshold optimization 
                 |  
 
