@@ -1,33 +1,17 @@
-# Machine Learning Projects Portfolio
+## Machine Learning Projects 
+### Hello, Welcome to my Machine Learning Projects Repository! 
 
-Welcome to my Machine Learning Projects portfolio! 
+**This repository features a compilation of personal projects, along with my assignments from Applied Machine Learning.**
 
-This repository showcases a collection of my projects, which includes assignments from my Applied Machine Learning course and personal projects that I have passionately worked on.
+### Project Sections:
+#### Deep Learning
+- [Deep Learning Projects README](Deep%20Learning/readme.md)
+  - [Project(s)](Deep%20Learning/)
 
-The file structure of this repo follows this diagram:
+#### Supervised Learning
+- [Supervised Learning Projects README](Supervised%20Learning/readme.md)
+  - [Project(s)](Supervised%20Learning/)
 
-├── Deep Learning/
-
-│   ├── project1/
-
-│   ├── project2/
-
-│   ├── ...
-
-├── Supervised Learning/
-
-│   ├── project1/
-
-│   ├── project2/
-
-│   ├── ...
-
-├── Unsupervised Learning/
-
-|   ├── project1/
-
-|   ├── project2/
-
-├── README.md
-
-Each project folder contains files for the data and machine learning code.
+#### Unsupervised Learning
+- [Unsupervised Learning Projects README](Unsupervised%20Learning/readme.md)
+  - [Project(s)](Unsupervised%20Learning/)
