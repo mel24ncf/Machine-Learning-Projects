@@ -10,7 +10,8 @@
 
 #### Supervised Learning
 - [Supervised Learning Projects README](Supervised%20Learning/readme.md)
-  - [Project(s)](Supervised%20Learning/)
+  - [Cleveland House Prices](Supervised%20Learning/)
+  - [Framingham Heart Study](Supervised%20Learning/)
 
 #### Unsupervised Learning
 - [Unsupervised Learning Projects README](Unsupervised%20Learning/readme.md)
