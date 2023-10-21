@@ -10,8 +10,10 @@
 
 #### Supervised Learning
 - [Supervised Learning Projects README](Supervised%20Learning/readme.md)
-  - [Cleveland House Prices](Supervised%20Learning/)
-  - [Framingham Heart Study](Supervised%20Learning/FraminghamHeartStudy)
+  - **Linear Regression**      
+    - [Cleveland House Prices](Supervised%20Learning/Cleveland%20House%20Prices)
+  - **Logistic Regression**                                   
+    - [Framingham Heart Study](Supervised%20Learning/Framingham%20Heart%20Study)            
 
 #### Unsupervised Learning
 - [Unsupervised Learning Projects README](Unsupervised%20Learning/readme.md)
