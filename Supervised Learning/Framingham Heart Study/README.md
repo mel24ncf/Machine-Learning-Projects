@@ -46,10 +46,10 @@ This project contains four python files.
 
 File            | Description
 ----------------|-----------------
+framingham.csv  | data
 chd_explore.py  | creates report using pandas_profiling for data exploration
 data_report.html| report created from chd_explore file
 chd_split.py    | splits data into train (80%) and test (20%) datasets 
 chd_train.py    | fits model on pipeline containing scaler and log regression model, prints accuracy, and saves coefficients for model 
 classifier.pkl  | saved scaler and weights of log regression model
 chd_test.py     | model evaluation on test dataset with confusion matrix using .50 threshold, and threshold optimization 
-
