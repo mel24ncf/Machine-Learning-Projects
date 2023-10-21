@@ -1,13 +1,14 @@
 # Supervised Learning
 
 ## Definition:
-Supervised Machine Learning is a branch of machine learning that is concerned with algorithms that are trained on labeled datasets. 
-The type of labeling determines whether the task is a classification or regression problem.
+Supervised Machine Learning is the branch of machine learning that is concerned with training models on labeled datasets. These models learn from the labeled datasets to
+make predictions on the labels of unseen data. In supervised learning, the goal is to predict these labels, which can be categorical, referred to as **classes**, or numeric and 
+continuous, known as **targets**. The labeling determines the type of supervised task which in turn influences the set of models that one can apply to the problem. 
 
 ## Types:
 ### Classification:
-In a classification problem, the goal is to train a computer to correctly assign each instance to its appropriate category 
-(or set of categories in multi-label classification). Examples include classifying the following:
+In a classification problem, the goal is to train a computer to correctly assign each instance to its appropriate class. 
+(or set of classes in multi-label classification). Examples include classifying the following:
 
   * Survivors of the Titanic
   * Customer Churn
@@ -15,7 +16,7 @@ In a classification problem, the goal is to train a computer to correctly assign
   * Image Classification
 
 ### Regression:
-Regression problems involve training a computer to predict numerical values. This is used when the output or target is a continuous variable. 
+In a regression problem, the goal to train a computer to correctly predict the target for each instance. 
 Examples include predictions on the following:
 
   * House Price 
