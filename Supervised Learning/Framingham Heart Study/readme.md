@@ -1,8 +1,11 @@
-# Framingham Heart Study: Logistic Regression for Coronary Heart Disease Prediction
+# Framingham Heart Study: 
+    Logistic Regression for Coronary Heart Disease Prediction
 
+## 1. Summary
 In this project, I build a logistic regression model to predict whether a person will have a coronary heart disease event in the next decade. 
 This prediction takes the following variables into account:
 
+## 2. Data
 * Male: Boolean Indicator of male patient
   > 0: Female
   > 1: Male
@@ -31,6 +34,7 @@ This prediction takes the following variables into account:
 * heartRate:
 * Glucose:
 
+## 3. Files
 This project contains four python files.
 
 File            | Description
