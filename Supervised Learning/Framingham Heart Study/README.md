@@ -41,6 +41,9 @@ I also perform threshold analysis to identify the threshold that produces the la
 * Glucose:
 * TenYearCHD: (**Target**)
 
+**Use this link to see the pandas generated report**
+
+
 ## 3. Files
 This project contains four python files.
 
