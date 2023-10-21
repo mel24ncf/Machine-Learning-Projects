@@ -1,14 +1,18 @@
 # Cleveland House Prices: Linear Regression in 3 Flavors
 
+## 1. Summary:
 In this project, I build a linear regression model in three different ways to model Cleveland house prices based on five features from 519 recently sold homes.
 
+## 2. Data:
 * sqft hvac: Indoor square footage
 * sqft yard: Outdoor square footage
 * bedrooms: Number of bedrooms
 * bathrooms: Number of bathrooms
 * miles to school: Distance in miles to nearest elementary school
+* price: price of the home (**Target**)
 
-This project contains four python files.
+## 3. Files:
+This project contains four python files, and an excel file containing the data.
 
 File            | Description
 ----------------|-----------------
