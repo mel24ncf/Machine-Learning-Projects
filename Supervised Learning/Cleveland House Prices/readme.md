@@ -1,5 +1,4 @@
-# Cleveland House Prices: 
-    Linear Regression in 3 Flavors
+# Cleveland House Prices: Linear Regression in 3 Flavors
 
 ## 1. Summary:
 In this project, I build a linear regression model in three different ways to model Cleveland house prices based on five features from 519 recently sold homes.
