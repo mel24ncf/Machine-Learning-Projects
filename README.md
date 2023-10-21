@@ -18,3 +18,6 @@
 #### Unsupervised Learning
 - [Unsupervised Learning Projects README](Unsupervised%20Learning/readme.md)
   - [Project(s)](Unsupervised%20Learning/)
+
+Please check back regularly for updates! 
+This repo is a work in progress with more exciting projects on the way.
