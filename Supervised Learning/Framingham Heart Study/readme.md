@@ -1,9 +1,8 @@
-# Framingham Heart Study: 
-    Logistic Regression for Coronary Heart Disease Prediction
+# Framingham Heart Study: Logistic Regression for Coronary Heart Disease Prediction
 
 ## 1. Summary
-In this project, I build a logistic regression model to predict whether a person will have a coronary heart disease event in the next decade. 
-This prediction takes the following variables into account:
+In this project, I built a classification model using logistic regression, to predict whether a person will have a coronary heart disease event within 10 years.
+I also perform threshold analysis to identify the threshold that produces the largest F1 score for the fitted model. The threshold (usually .50) is a parameter that determines the positive class. 
 
 ## 2. Data
 * Male: Boolean Indicator of male patient
