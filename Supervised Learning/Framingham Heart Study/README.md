@@ -40,10 +40,6 @@ In this project, I constructed a logistic regression model to classify patients 
 * Glucose:
 * TenYearCHD: (**Target**)
 
-**Use this link to see the pandas generated report**
-
-[My Pandas Profiling Report](file:///C:/Users/15639/Documents/Modeling/Machine%20Learning/Framingham/data_report.html#sample)
-
 ## 3. Files
 This project contains four python files.
 
