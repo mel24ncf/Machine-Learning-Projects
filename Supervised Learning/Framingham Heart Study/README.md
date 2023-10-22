@@ -45,9 +45,9 @@ In this project, I constructed a logistic regression model to classify patients 
 * heartRate: Heart rate in bpm
 * Glucose: Casual serum total cholesterol mg/dL
 * TenYearCHD: Coronary heart disease event in the next 10 years
-  > 0: Event occurred
+  > 0: Event did not occur
   > 
-  > 1: Event did not occur
+  > 1: Event occurred
 
 ## 3. Files
 
