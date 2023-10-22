@@ -16,7 +16,7 @@
     - [Framingham Heart Study](Supervised%20Learning/Framingham%20Heart%20Study)            
 
 #### Unsupervised Learning
-- [Unsupervised Learning Projects README](Unsupervised%20Learning/readme.md)
+- [Unsupervised Learning Projects README](Unsupervised%20Learning/README.md)
   - [Project(s)](Unsupervised%20Learning/)
 
 Please check back regularly for updates! 
