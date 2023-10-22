@@ -5,6 +5,13 @@ Unsupervised Machine Learning is the branch of machine learning that is concerne
 
 ## Types:
 ### Clustering:
+In clustering tasks, the goal is to group data points into clusters based on similarity, without any prior knowledge of the groupings.
+Common examples include:
+* Customer Segmentation
+* Text Clustering
+
 ### Dimensionality Reduction
+Dimensionality reduction techiques focus on data reduction, reducing the number of features in the dataset to the most important. 
+
 ### Association Rules
 ### Anomaly Detection 
