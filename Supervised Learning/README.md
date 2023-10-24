@@ -2,8 +2,7 @@
 
 ## Definition:
 Supervised Machine Learning is the branch of machine learning that is concerned with training models on labeled datasets. These models learn from the labeled datasets to
-make predictions on the labels of unseen data. In supervised learning, the goal is to predict these labels, which can be categorical, referred to as **classes**, or numeric and 
-continuous, known as **targets**. The labeling determines the type of supervised task which in turn influences the set of models that one can apply to the problem. 
+make predictions on the labels of unseen data. In supervised learning, the goal is to predict these labels, which can be categorical (referred to as **classes**), or numeric and continuous (called **targets**). The labeling determines the type of supervised task which in turn influences the set of models that one can apply to the problem. 
 
 ## Types:
 ### Classification:
