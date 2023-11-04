@@ -9,7 +9,7 @@ Explore a variety of supervised learning projects:
     - [Project Details](Supervised%20Learning/Cleveland%20House%20Prices)
   - **Framingham Heart Study Analysis: Predicting Cardiovascular Disease Risk using Logistic Regression**
     - [Project Details](Supervised%20Learning/Framingham%20Heart%20Study)
-  - **Titanic - Machine Learning from Disaster Kaggle Competition**
+  - **Titanic Survival Prediction with SVM**
     - [Project Details](Supervised%20Learning/Titanic%20-%20Machine%20Learning%20from%20Disaster)
        
 
