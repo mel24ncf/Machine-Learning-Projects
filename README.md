@@ -10,9 +10,8 @@ Explore a variety of supervised learning projects:
   - **Framingham Heart Study: Logistic Regression for Coronary Heart Disease Prediction**
     - [Project Details](Supervised%20Learning/Framingham%20Heart%20Study)
   - **Titanic: Predicting Passengers' Fate with SVM**
-    - [Project Details](Supervised%20Learning/Titanic%20-%20Machine%20Learning%20from%20Disaster)
+    - [Project Details](Supervised%20Learning/Titanic:%20Predicting%20Passengers'%20Fate)
        
-
 ### Unsupervised Learning
 Coming Soon!
 
