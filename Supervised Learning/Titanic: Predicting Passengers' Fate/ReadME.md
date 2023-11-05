@@ -1,4 +1,4 @@
-# Titanic Kaggle Competition
+# Titanic: Predicting Passengers' Fate with SVM 
 
 ## 1. Summary
 In this project, I use a Support Vector Machine to tackle the Kaggle challenge of predicting which passengers of the Titanic survive. \
