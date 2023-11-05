@@ -5,6 +5,8 @@ In this project, I use a Support Vector Machine to tackle the Kaggle challenge o
 To successfully carry out this task, I use GridSearchCV to identify the best hyperparameters for the svm classifier, with some feature engineering applied on the **Name** and **Cabin** features.  \
 This model achieves an accuracy of .78708 on the Kaggle test file, placing it in the top 12% on the leaderboard.
 
+For more information, see here https://www.kaggle.com/competitions/titanic
+
 ## 2. Data (as described on Kaggle)
 * PassengerId: Passenger Id
 * Survived: Boolean indicating whether passenger survived
