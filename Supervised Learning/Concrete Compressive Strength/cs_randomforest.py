@@ -20,8 +20,7 @@ param_grid = [
         "model__n_estimators": [30, 50, 100, 150, 200, 250],
         "model__max_depth": [2, 3, 4],
         "model__max_features": [2, 3, 4, 8],
-        "model__min_samples_split": [2, 3, 4],
-        "model__random_state": [42],
+        "model__min_samples_split": [2, 3, 4]
     }
 ]
 
