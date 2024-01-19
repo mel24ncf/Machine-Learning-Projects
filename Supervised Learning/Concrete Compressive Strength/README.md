@@ -16,8 +16,8 @@ The mean Root Mean Squared Error (RMSE) was used to gauge the overall predictive
 ## 2. Data:
 
 This data can be found on the UC Irvine Machine Learning Repository website located [here](https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength) \
-It contains 8 features and 1 target variable. 
-The data definitions below were taken directly from the UC Irvine website.
+It contains 8 features and 1 target variable. \
+The data definitions below were taken directly from the UC Irvine website. \
 Cement (component 1) -- quantitative -- kg in a m3 mixture -- Input Variable
 Blast Furnace Slag (component 2) -- quantitative -- kg in a m3 mixture -- Input Variable
 Fly Ash (component 3) -- quantitative  -- kg in a m3 mixture -- Input Variable
