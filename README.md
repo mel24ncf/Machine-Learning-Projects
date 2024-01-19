@@ -11,6 +11,8 @@ Explore a variety of supervised learning projects:
     - [Project Details](Supervised%20Learning/Framingham%20Heart%20Study)
   - **Titanic: Predicting Passengers' Fate with SVM**
     - [Project Details](Supervised%20Learning/Titanic:%20Predicting%20Passengers'%20Fate)
+  - **Concrete Compressive Strength**
+    - [Project Details](Supervised%20Learning/Concrete%20Compressive%20Strength)
        
 ### Unsupervised Learning
 Coming Soon!
