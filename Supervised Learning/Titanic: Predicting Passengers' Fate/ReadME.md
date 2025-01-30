@@ -7,7 +7,7 @@ This model achieves an accuracy of .78708 on the Kaggle test file, placing it in
 
 For more information, see here https://www.kaggle.com/competitions/titanic
 
-## 2. Data (as described on Kaggle)
+## 2. Features 
 * PassengerId: Passenger Id
 * Survived: Boolean indicating whether passenger survived
   > 0 = No \
