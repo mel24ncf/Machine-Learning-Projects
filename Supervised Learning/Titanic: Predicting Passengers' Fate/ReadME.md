@@ -9,7 +9,7 @@ For more information, see here https://www.kaggle.com/competitions/titanic
 
 ## 2. Features 
 * PassengerId: Passenger Id
-* Survived: Boolean indicating whether passenger survived
+* Survived: Boolean indicating whether passenger survived **Target**
   > 0 = No \
   > 1 = Yes
 * Pclass: Proxy for socio-economic status
