@@ -8,7 +8,7 @@ The Multiple Linear Regression model is implemented in the following ways:
 * Gradient Descent
 
 
-## 2. Data:
+## 2. Features:
 * sqft hvac: Indoor square footage
 * sqft yard: Outdoor square footage
 * bedrooms: Number of bedrooms
@@ -17,7 +17,7 @@ The Multiple Linear Regression model is implemented in the following ways:
 * price: price of the home (**Target**)
 
 ## 3. Files:
-This project contains four python files, and an excel file containing the data.
+This project contains four Python files, and an excel file containing the data.
 
 File            | Description
 ----------------|-----------------
