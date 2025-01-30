@@ -3,7 +3,7 @@
 ## 1. Summary
 In this project, I constructed a logistic regression model to classify patients at risk of experiencing a coronary heart disease event within the next 10 years. I also conducted a threshold analysis to identify the threshold value that maximizes the F1 score for the fitted model. In logistic regression, a threshold (typically 0.50) is the value that is used to compare against the predicted probability for classifying the positive class. 
 
-## 2. Data
+## 2. Features
 * Male: Boolean Indicator of male patient
   > 0: Female \
   > 1: Male
@@ -35,7 +35,7 @@ In this project, I constructed a logistic regression model to classify patients 
 * BMI: Body Mass Index (weight in kilograms/ height meters squared)
 * heartRate: Heart rate in bpm
 * Glucose: Casual serum total cholesterol mg/dL
-* TenYearCHD: Coronary heart disease event in the next 10 years
+* TenYearCHD: Coronary heart disease event in the next 10 years **Target**
   > 0: Event did not occur \
   > 1: Event occurred
 
