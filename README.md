@@ -1,6 +1,6 @@
 ## Machine Learning Projects 
 Hello, Welcome to my Machine Learning Projects Repository! \
-This repository features a compilation of personal projects, along with some of my assignments from a course in Applied Machine Learning.
+This repository features a collection of personal and academic projects.
 
 ### Supervised Learning 
 [Introduction to Supervised Learning](Supervised%20Learning/README.md) \
