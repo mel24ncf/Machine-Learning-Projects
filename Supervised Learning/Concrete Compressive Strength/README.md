@@ -13,20 +13,21 @@ To ensure consistency and reliability across models, a dedicated utility file wa
 
 The Root Mean Squared Error (RMSE) was used to gauge the overall predictive accuracy of the selected Catboost model. The resulting mean RMSE was calculated at 4.31, providing insight into the model's precision. The permutation importance function was applied to determine the significance of each feature in the predictive model. This analysis enhances our understanding of the relative impact of different features on the model's output. To further enhance interpretability, confidence intervals for RMSE were generated. This statistical measure provides a range in which the true RMSE is likely to fall.
 
-## 2. Data:
+## 2. Features:
 
 This data can be found on the UC Irvine Machine Learning Repository website located [here](https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength) \
 It contains 8 features and 1 target variable. \
 The data definitions below were taken directly from the UC Irvine website. \
-Cement (component 1) -- quantitative -- kg in a m3 mixture -- Input Variable \
-Blast Furnace Slag (component 2) -- quantitative -- kg in a m3 mixture -- Input Variable \
-Fly Ash (component 3) -- quantitative  -- kg in a m3 mixture -- Input Variable \
-Water  (component 4) -- quantitative  -- kg in a m3 mixture -- Input Variable \
-Superplasticizer (component 5) -- quantitative -- kg in a m3 mixture -- Input Variable \
-Coarse Aggregate  (component 6) -- quantitative -- kg in a m3 mixture -- Input Variable \
-Fine Aggregate (component 7)	 -- quantitative  -- kg in a m3 mixture -- Input Variable \
-Age -- quantitative  -- Day (1~365) -- Input Variable \
-Concrete compressive strength -- quantitative -- MPa -- Output Variable
+
+* Cement -- kg in a m3 mixture -- 
+* Blast Furnace Slag  -- kg in a m3 mixture -- 
+* Fly Ash -- kg in a m3 mixture -- 
+* Water -- kg in a m3 mixture -- 
+* Superplasticizer -- kg in a m3 mixture -- 
+* Coarse Aggregate -- kg in a m3 mixture -- 
+* Fine Aggregate -- kg in a m3 mixture -- 
+* Age -- Day (1~365) 
+Concrete compressive strength -- MPa -- **Target**
 
 ## 3. Files
 This project contains six python files, and a csv file containing the data.
