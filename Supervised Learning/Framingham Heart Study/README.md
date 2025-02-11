@@ -1,50 +1,68 @@
 # Framingham Heart Study: Logistic Regression for Coronary Heart Disease Prediction
 
-## 1. Summary
-In this project, I constructed a logistic regression model to classify patients at risk of experiencing coronary heart disease within the next 10 years. I also conducted threshold analysis to identify the threshold value that maximizes F1 score in the fitted model. In logistic regression, a threshold (typically 0.50) is the value that is compared against the probability of the positive class determined by the model.
+## 1. Project Overview
+This project builds a **logistic regression model** to predict whether a patient is at risk of developing **coronary heart disease (CHD) within the next 10 years**. The dataset comes from the **Framingham Heart Study**, which tracks various health indicators and lifestyle factors.
 
-## 2. Features
-* Male: Boolean Indicator of male patient
-  > 0: Female \
-  > 1: Male
-* Age: Age of a patient in years
-* Education: Categorical data for education level
-  > 1: 0 to 11 years \
-  > 2: High School Diploma/GED \
-  > 3: Some College, Vocational School \
-  > 4: College (BS, BA) degree or more
-* currentSmoker: Current cigarette smoking at exam
-  > 0: Not current smoker \
-  > 1: Current smoker
-* cigsPerDay: cigarettes smoked per day
-* BPMeds: Use of Anti-hypertensive medication at exam
-  > 0: Not currently used \
-  > 1: Current use
-* prevalentStroke: Prevalent Stroke
-  > 0: Free of disease \
-  > 1: Prevalent of disease
-* prevalentHyp: Prevalent Hypertensive, if treated or if second exam at which mean systolic was >= 140 mmHg or mean Diastolic >=90 mmHg
-  > 0: Free of disease \
-  > 1: Prevalent of disease
-* Diabetes: Diabetic according to criteria of first exam treated or first exam with casual glucose >= 200 mg/dL
-  > 0: Not a diabetic \
-  > 1: Diabetic
-* totChol: Serum total cholesterol mg/dL
-* sysBP: Systolic blood pressure (mean of last two of three measurements) mmHg
-* diaBP: Diastolic blood pressure (mean of last two of three measurements) mmHg
-* BMI: Body Mass Index (weight in kilograms/ height meters squared)
-* heartRate: Heart rate in bpm
-* Glucose: Casual serum total cholesterol mg/dL
-* TenYearCHD: Coronary heart disease event in the next 10 years **Target**
-  > 0: Event did not occur \
-  > 1: Event occurred
+Beyond standard model evaluation, **threshold analysis** was conducted to optimize the decision threshold, improving the balance between **precision and recall** rather than relying on the default 0.50 threshold. This ensures the model is fine-tuned for real-world application in heart disease risk assessment.
 
-## 3. Files
+## 2. Model & Methodology
+- **Logistic Regression:** Chosen for interpretability and its effectiveness in binary classification tasks.
+- **Data Preprocessing:** Standardization of numerical features and handling of missing values with imputation.
+- **Class Imbalance Handling:** Use of `class_weight="balanced"` to address the imbalance in CHD cases.
+- **Threshold Optimization:** Conducted an F1-score-based threshold analysis to improve classification performance.
+- **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, and ROC-AUC were analyzed to assess model performance.
 
-File            | Description
-----------------|-----------------
-framingham.csv  | data
-chd_explore.py  | creates html report using Pandas Profiling for data summary
-chd_split.py    | splits data into train (80%) and test (20%) datasets 
-chd_train.py    | trains logistic regression model within data preprocessing pipeline, prints accuracy, and saves model coefficients in a pickle file.  
-chd_test.py     | evaluates model on test dataset, calculates confusion matrix using a threshold of .50, performs threshold analysis
+## 3. Features
+| Feature Name     | Description |
+|-----------------|-------------|
+| **Male**        | Binary indicator for male patient (1 = Male, 0 = Female) |
+| **Age**         | Age of the patient in years |
+| **Education**   | Categorical variable for education level (1-4, ranging from no formal education to college degree) |
+| **currentSmoker** | Binary indicator for current smoker status |
+| **cigsPerDay**  | Number of cigarettes smoked per day |
+| **BPMeds**      | Binary indicator for use of anti-hypertensive medication |
+| **prevalentStroke** | Binary indicator for history of stroke |
+| **prevalentHyp** | Binary indicator for hypertension |
+| **Diabetes**    | Binary indicator for diabetes status |
+| **totChol**     | Total cholesterol level (mg/dL) |
+| **sysBP**       | Systolic blood pressure (mmHg) |
+| **diaBP**       | Diastolic blood pressure (mmHg) |
+| **BMI**         | Body Mass Index (kg/m²) |
+| **heartRate**   | Heart rate (bpm) |
+| **Glucose**     | Blood glucose level (mg/dL) |
+| **TenYearCHD**  | Target variable: Whether CHD occurred within 10 years (1 = Yes, 0 = No) |
+
+## 4. Files & Scripts
+| File Name       | Description |
+|----------------|-------------|
+| **framingham.csv** | Dataset containing patient data |
+| **chd_explore.py** | Generates an HTML report using Pandas Profiling for exploratory data analysis |
+| **chd_split.py** | Splits the dataset into training (80%) and test (20%) sets |
+| **chd_train.py** | Trains the logistic regression model, performs preprocessing, prints metrics, and saves the trained model as a pickle file |
+| **chd_test.py** | Evaluates the model, calculates confusion matrix, conducts threshold analysis, and plots performance metrics (ROC curve, precision-recall tradeoff) |
+
+## 5. Model Performance
+### **Default Threshold (0.50):**
+- **Accuracy:** 67%
+- **Precision:** 25%
+- **Recall:** 59%
+- **F1-score:** 35%
+
+### **Optimized Threshold (0.38):**
+- **Accuracy:** 53%
+- **Precision:** 22%
+- **Recall:** 84%
+- **F1-score:** Improved compared to the default threshold
+
+### **Insights:**
+- The optimized threshold prioritizes **higher recall**, ensuring more CHD cases are detected.
+- Precision is lower, meaning more false positives occur, but this trade-off is acceptable in medical applications where missing a true CHD case is riskier than unnecessary follow-ups.
+- ROC curve analysis confirms that the model provides predictive value beyond random guessing.
+
+## 6. Future Work
+- Experiment with other models (e.g., Random Forest, Gradient Boosting) for improved predictive performance.
+- Implement SMOTE or other techniques to balance the dataset further.
+- Incorporate additional clinical data or external risk factors to enhance predictions.
+
+---
+This project demonstrates a structured approach to **predictive modeling in healthcare** by balancing interpretability, performance, and real-world applicability. ⚕️
