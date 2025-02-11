@@ -40,7 +40,7 @@ Beyond standard model evaluation, **threshold analysis** was conducted to optimi
 | **chd_split.py** | Splits the dataset into training (80%) and test (20%) sets |
 | **chd_train.py** | Trains the logistic regression model, performs preprocessing, prints metrics, and saves the trained model as a pickle file |
 | **chd_test.py** | Evaluates the model, calculates confusion matrix, conducts threshold analysis, and plots performance metrics (ROC curve, precision-recall tradeoff) |
-| **util.py** | Holds reusable functions for plotting and saving the confusion matrix and ROC curve. |
+| **util.py** | Holds reusable functions for plotting and saving the confusion matrix and ROC curve |
 
 ## 5. Model Performance
 ### **Default Threshold (0.50):**
